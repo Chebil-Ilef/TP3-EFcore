@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\images\\687835.jpg",
+      "PackagePath": "staticwebassets\\images\\687835.jpg"
+    },
+    {
+      "Id": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\images\\687897.jpg",
+      "PackagePath": "staticwebassets\\images\\687897.jpg"
+    },
+    {
       "Id": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

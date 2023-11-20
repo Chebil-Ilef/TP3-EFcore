@@ -25,21 +25,30 @@ namespace TP3.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Movie c)
+        public ActionResult CreateMovie(Movie movie)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View();
+                if (movie.ImageFile != null && movie.ImageFile.Length > 0)
+                {
+                    // Enregistrez le fichier image sur le serveur
+                    var imagePath = Path.Combine("wwwroot/images", movie.ImageFile.FileName);
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        movie.ImageFile.CopyTo(stream);
+                    }
+
+                    // Enregistrez le chemin de l'image dans la base de données
+                    movie.Photo = $"/images/{movie.ImageFile.FileName}";
+                }
+
+                _db.movies.Add(movie);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
             }
 
-            
-
-            c.Id = new int();
-            _db.movies.Add(c);
-            _db.SaveChanges();
-
-
-            return RedirectToAction(nameof(Index));
+            // Gestion des erreurs de validation
+            return View("Create", movie);
         }
 
         public IActionResult Edit(int id)
@@ -63,7 +72,18 @@ namespace TP3.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (movie.ImageFile != null && movie.ImageFile.Length > 0)
+                {
+                    // Enregistrez le fichier image sur le serveur
+                    var imagePath = Path.Combine("wwwroot/images", movie.ImageFile.FileName);
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        movie.ImageFile.CopyTo(stream);
+                    }
 
+                    // Enregistrez le chemin de l'image dans la base de données
+                    movie.Photo = $"/images/{movie.ImageFile.FileName}";
+                }
                 _db.Entry(movie).State = EntityState.Modified;
                 _db.SaveChanges();
                 return RedirectToAction("Index");

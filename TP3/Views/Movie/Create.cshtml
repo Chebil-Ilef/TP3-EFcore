@@ -16,7 +16,7 @@
 
 
 <div class="col" style="margin:0% 7% 7%">
-    <form asp-action="Create" enctype="multipart/form-data">
+    <form asp-action="CreateMovie" asp-controller="Movie" method="post" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <div class="row form-group" style="background-color:lightgrey">
@@ -32,9 +32,9 @@
         </div>
 
         <div class="row form-group" style="background-color:lightgrey">
-            <label asp-for="Photo" class="col-lg-2 control-label"></label>
-            <input type="file" asp-for="Photo" accept="image/png, image/jpeg, image/jpg" class="col form-control" />
-            <span asp-validation-for="Photo" class="text-danger"></span>
+            <label asp-for="ImageFile" class="col-lg-2 control-label"></label>
+            <input type="file" asp-for="ImageFile" class="col form-control" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
         </div>
 
         <div class="row form-group">

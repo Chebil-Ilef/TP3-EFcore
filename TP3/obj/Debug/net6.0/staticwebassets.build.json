@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SvmzjxE4xlgKkLLiFC2xlCMk3xgEKIBEZJucf9v+b9A=",
+  "Hash": "XbjkbVJy1CIb8B10NjdbA5Ca91NAuTLfFDAqyyYjqXE=",
   "Source": "TP3",
   "BasePath": "_content/TP3",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\images\\687835.jpg",
+      "SourceId": "TP3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\",
+      "BasePath": "_content/TP3",
+      "RelativePath": "images/687835.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\687835.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\images\\687897.jpg",
+      "SourceId": "TP3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\",
+      "BasePath": "_content/TP3",
+      "RelativePath": "images/687897.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\687897.jpg"
     },
     {
       "Identity": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\wwwroot\\js\\site.js",
