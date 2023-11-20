@@ -19,8 +19,7 @@ namespace TP3.Models
         public DateTime? MovieAdded { get; set; }
         public string? Photo { get; set; }
 
-        [NotMapped]
-        public IFormFile? PhotoFile { get; set; }
+       
 
 
     }
