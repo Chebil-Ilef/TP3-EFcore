@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34031.279
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3", "TP3\TP3.csproj", "{2F41D71B-96CE-42A9-8A7A-A97303DC4150}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP3", "TP3\TP3.csproj", "{2F41D71B-96CE-42A9-8A7A-A97303DC4150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

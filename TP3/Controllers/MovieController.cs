@@ -110,10 +110,23 @@ namespace TP3.Controllers
         {
             var movie = _db.movies.Find(id);
 
+
             if (movie == null)
             {
                 return NotFound();
             }
+
+            // Delete the image file from the /images folder
+            if (!string.IsNullOrEmpty(movie.Photo))
+            {
+                var imagePath = Path.Combine("wwwroot", movie.Photo.TrimStart('/'));
+
+                if (System.IO.File.Exists(imagePath))
+                {
+                    System.IO.File.Delete(imagePath);
+                }
+            }
+
 
             _db.movies.Remove(movie);
             _db.SaveChanges();

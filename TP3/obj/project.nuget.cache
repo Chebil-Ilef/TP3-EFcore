@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XW3f9wHl7BLIOV+ZI9M18o61EOFk6B+J+G4/KgUUnMeid6IS89jXQ4b3ZEBmnrZAtiaaDdbUefzpmsgUV1ePJg==",
+  "dgSpecHash": "3M9ppJnfD+37SbeydKCvbxL5gY3WAqS2YIh3CExjx2jtmZAC/o8+UD/xELOzaXLnJQObXeNFgIi1MgDsS09FmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP2 DbFirst\\TP3\\TP3\\TP3.csproj",
+  "projectFilePath": "C:\\Users\\msi\\OneDrive\\Bureau\\TP DOTNET\\TP3-EFcore\\TP3\\TP3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\msi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
